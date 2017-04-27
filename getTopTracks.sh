@@ -11,6 +11,7 @@
 
 while read artist; do
     # Get REST response
+    # http://www.last.fm/api
     curl "http://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=${artist}&api_key=[ api key ]&format=xml" -o temptracklist.xml
     
     #Parse XML
