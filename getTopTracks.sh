@@ -3,7 +3,7 @@
 # Import txt playlist to whatever
 # http://www.playlist-converter.net
 #
-# Run as getTopTracks.sh artist_list.txt
+# Run as getTopTracks.sh hiphop.txt
 #
 # artist_list.txt should contain one artist
 # per line
